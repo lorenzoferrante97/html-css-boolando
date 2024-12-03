@@ -22,6 +22,10 @@ img {
     display: block;
     max-width: 100%;
 }
+/* reset links */
+a {
+    text-decoration: none;
+}
 
 
 /* color classes */
