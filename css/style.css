@@ -34,10 +34,17 @@ a {
     text-decoration: none;
 }
 
+
+html {
+    font-family: "Poppins", sans-serif;
+}
+
+
+
 /* link styles */
 a {
     font-weight: var(--font-weight-m);
-    font-size: var(--font-size-default);
+    font-size: var(--font-size-s);
 }
 header a {
     color: var(--color-white);
@@ -59,19 +66,30 @@ header a {
 .between {
     justify-content: space-between;
 }
+.flex-end {
+    justify-content: flex-end;
+}
 .cross-axis-center {
     align-items: center;
 }
-
-/* header */
-header {
-    padding: 12px 0;
+.perfect-center {
+    justify-content: center;
+    align-items: center;
 }
+
+
+
+
 
 /* header container */
 .container-default {
     width: 80%;
     margin: 0 auto;
+}
+
+/* header */
+header {
+    padding: 12px 0;
 }
 
 /* header nav links */
@@ -80,9 +98,14 @@ header nav ul li{
     padding: 4px 4px;
 }
 
-/* logo */
-header .logo-box {
-    flex-basis: 12%;
+/* same dimensions for header boxes */
+header .logo-box, header nav, header .link-icons-box {
+    flex-basis: calc(100% / 3);
+}
+
+/* logo box */
+.logo-box img {
+    width: 100px;
 }
 
 /* header icons box */
