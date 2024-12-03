@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
+:root {
+    --color-accent: #FF6900;
+    --color-white: #ffffff;
+    --color-black: #1A1A1A;
+    --color-green: #00732e;
+}
+
 /* reset */
 
 * {
@@ -14,6 +21,15 @@ figure {
 img {
     display: block;
     max-width: 100%;
+}
+
+
+/* color classes */
+.text-white {
+    color: var(--color-white);
+}
+.bg-accent {
+    background-color: var(--color-accent);
 }
 
 /* flex rules */
