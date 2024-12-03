@@ -209,3 +209,8 @@ header .link-icons-box figure img {
 .favourite:hover > svg {
     fill: red;
 }
+
+/* hover img */
+#img-hover-1 {
+    display: none;
+}
