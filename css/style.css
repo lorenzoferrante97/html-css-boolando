@@ -202,3 +202,10 @@ header .link-icons-box figure img {
     position: relative;
     top: -12px;
 }
+
+
+/* BONUS 2 */
+
+.favourite:hover > svg {
+    fill: red;
+}
