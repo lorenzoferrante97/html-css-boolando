@@ -111,7 +111,10 @@ header a {
 }
 
 
-
+/* main */
+main {
+    padding: 40px 0;
+}
 
 
 /* header container */
