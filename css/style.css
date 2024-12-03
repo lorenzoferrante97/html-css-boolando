@@ -5,6 +5,13 @@
     --color-white: #ffffff;
     --color-black: #1A1A1A;
     --color-green: #00732e;
+
+    --font-weight-l: 700;
+    --font-weight-m: 500;
+    --font-weight-s: 400;
+
+    --font-size-default: 16px;
+    --font-size-s: 14px;
 }
 
 /* reset */
