@@ -64,10 +64,35 @@ header a {
 }
 
 /* header */
+header {
+    padding: 12px 0;
+}
+
+/* header container */
+.container-default {
+    width: 80%;
+    margin: 0 auto;
+}
 
 /* header nav links */
 header nav ul li{
     display: inline-block;
     padding: 4px 4px;
+}
+
+/* logo */
+header .logo-box {
+    flex-basis: 12%;
+}
+
+/* header icons box */
+header .link-icons-box figure {
+    width: 24px;
+    aspect-ratio: 1;
+    padding: 4px;
+}
+/* header icons */
+header .link-icons-box figure img {
+    filter: invert(100%);
 }
 
