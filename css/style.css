@@ -7,3 +7,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* flex rules */
+.flex {
+    display: flex;
+}
+.between {
+    justify-content: space-between;
+}
+.cross-axis-center {
+    align-items: center;
+}
+
