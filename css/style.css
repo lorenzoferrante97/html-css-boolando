@@ -82,6 +82,7 @@ header a {
 .product-title-text {
     font-size: var(--font-size-default);
     font-weight: var(--font-weight-m);
+    text-transform: uppercase;
 }
 
 /* flex rules */
@@ -187,4 +188,14 @@ header .link-icons-box figure img {
 /* card old price */
 .old-price {
     text-decoration: line-through;
+}
+
+/* card info positioning */
+.product-title {
+    position: relative;
+    top: -4px;
+}
+.product-info-box > div {
+    position: relative;
+    top: -12px;
 }
