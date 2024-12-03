@@ -36,7 +36,8 @@ a {
 
 /* link styles */
 a {
-    
+    font-weight: var(--font-weight-m);
+    font-size: var(--font-size-default);
 }
 header a {
     color: var(--color-white);
