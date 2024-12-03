@@ -58,6 +58,9 @@ header a {
 .bg-accent {
     background-color: var(--color-accent);
 }
+.bg-white {
+    background-color: var(--color-white);
+}
 
 /* flex rules */
 .flex {
@@ -139,6 +142,8 @@ header .link-icons-box figure img {
 .product-card .favourite {
     position: absolute;
     right: 0;
-    top: 0;
+    top: 8px;
+    width: 28px;
+    padding: 8px;
 }
 
