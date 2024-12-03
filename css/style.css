@@ -211,6 +211,13 @@ header .link-icons-box figure img {
 }
 
 /* hover img */
-#img-hover-1 {
+.img-hover {
     display: none;
+}
+/* hover effect */
+.product-card:hover img:first-child {
+    display: none;
+}
+.product-card:hover .img-hover {
+    display: block;
 }
