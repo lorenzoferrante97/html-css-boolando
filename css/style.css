@@ -63,21 +63,33 @@ header a {
 .bg-white {
     background-color: var(--color-white);
 }
+.text-grey {
+    color: var(--color-grey);
+}
+.text-accent {
+    color: var(--color-accent);
+}
 
 /* font classes */
 .badge-text {
     font-size: var(--font-size-s);
     font-weight: var(--font-weight-m);
 }
-.mark-text {
+.text-xs {
     font-size: var(--font-size-xs);
     font-weight: var(--font-weight-s);
-    color: var(--color-grey);
+}
+.product-title-text {
+    font-size: var(--font-size-default);
+    font-weight: var(--font-weight-m);
 }
 
 /* flex rules */
 .flex {
     display: flex;
+}
+.flex-column {
+    flex-direction: column;
 }
 .between {
     justify-content: space-between;
@@ -172,3 +184,7 @@ header .link-icons-box figure img {
     background-color: var(--color-green);
 }
 
+/* card old price */
+.old-price {
+    text-decoration: line-through;
+}
