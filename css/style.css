@@ -123,3 +123,22 @@ header .link-icons-box figure img {
     filter: invert(100%);
 }
 
+/* product card */
+.product-card {
+    flex-basis: calc(100% / 3);
+}
+/* vard img (relative) */
+.product-card figure {
+    position: relative;
+}
+.product-card .badge-box {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.product-card .favourite {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
