@@ -27,6 +27,14 @@ a {
     text-decoration: none;
 }
 
+/* link styles */
+a {
+    
+}
+header a {
+    color: var(--color-white);
+}
+
 
 /* color classes */
 .text-white {
@@ -45,5 +53,13 @@ a {
 }
 .cross-axis-center {
     align-items: center;
+}
+
+/* header */
+
+/* header nav links */
+header nav ul li{
+    display: inline-block;
+    padding: 4px 4px;
 }
 
