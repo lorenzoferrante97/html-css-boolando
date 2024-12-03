@@ -4,6 +4,7 @@
     --color-accent: #FF6900;
     --color-white: #ffffff;
     --color-black: #1A1A1A;
+    --color-grey: #cccccc;
     --color-green: #00732e;
 
     --font-weight-l: 700;
@@ -12,6 +13,7 @@
 
     --font-size-default: 16px;
     --font-size-s: 14px;
+    --font-size-xs: 12px;
 }
 
 /* reset */
@@ -66,6 +68,11 @@ header a {
 .badge-text {
     font-size: var(--font-size-s);
     font-weight: var(--font-weight-m);
+}
+.mark-text {
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-s);
+    color: var(--color-grey);
 }
 
 /* flex rules */
